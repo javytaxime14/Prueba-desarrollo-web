@@ -5,3 +5,12 @@ header {
     background-position: left;
     padding-bottom: 10rem;
   }
+
+  @media (max-width: 500px) {
+    .hero, h2 {
+        text-align: center;
+        }
+    header {
+        background-size: ;
+    }
+    }
