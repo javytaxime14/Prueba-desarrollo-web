@@ -4,49 +4,56 @@
   --black: #000000;
   --dark: #373A3C;
 }
+
 .navbar-brand {
-    font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
+
 header {
-    background-image: url('../img/bg-hero.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 10rem;
-    background-position: center;
-  }
-  .btn {
-    font-family: 'Raleway', sans-serif;
-  }
-  
-  h2, h5 {
-    font-family: 'Lato', sans-serif;
-  }
-  
-  p, a {
-    font-family: 'Montserrat', sans-serif;
-  }
+  background-image: url(../img/bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 10rem;
+  background-position: center;
+}
 
-.fa-headset, .fa-chalkboard-teacher {
-    font-size: 3.750em;
-    color: var(--red);
-  }
+.btn {
+  font-family: 'Raleway', sans-serif;
+}
 
-  #work {
-    background-color: var(--red);
-    color: var(--white);
-  }
+h2,
+h5 {
+  font-family: 'Lato', sans-serif;
+}
 
-  .card-body {
-    color: var(--dark);
-  }
+p,
+a {
+  font-family: 'Montserrat', sans-serif;
+}
 
-.fa-facebook, .fa-instagram, .fa-github {
-    font-size: 1.875em;
-    color: var(--white);
-  }
+.fa-headset,
+.fa-chalkboard-teacher {
+  font-size: 3.750em;
+  color: var(--red);
+}
+
+#work {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.card-body {
+  color: var(--dark);
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-github {
+  font-size: 1.875em;
+  color: var(--white);
+}
 
 .logo {
   font-size: 2em;
   font-family: 'Montserrat Alternates', sans-serif;
-  }
-
+}
